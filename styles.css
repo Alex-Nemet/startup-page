@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+html, body {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+    font-family: 'Space Mono', monospace;
+    background-color: #504945;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.link_list {
+    border: 2px solid #cc241d;   
+    display: flex;
+}
+
+h1 {
+    color: #cc241d;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    justify-content: center;     
+    align-items: center;
+    padding: 30px;
+}
+
+a:link, a:visited, a:active {
+    color: #cc241d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fabd2f;
+}
+
+ 
